@@ -1,2 +1,2 @@
-# rasterstats
+# PyRasterStats
 python rasterstats testing scripts

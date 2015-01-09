@@ -1,0 +1,16 @@
+*.tif
+*.csv
+*.dbf
+*.shp
+*.prj
+*.qpj
+*.shx
+*.xml
+*.txt
+.RData
+.Rhistory
+*.pyc
+*.ovr
+*.png
+*.tfw
+pre4root*
