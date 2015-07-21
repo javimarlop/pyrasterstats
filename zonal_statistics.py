@@ -90,5 +90,8 @@ for each_feature in range(features_number):
     if yoff< 0:
         yoff =0
     dataraster = banddataraster.ReadAsArray(xoff, yoff, xcount, ycount)#.astype(np.float)
-    mean = np.mean(dataraster)
-    f.write('{0}, {1}\n'.format(ID, mean))
+    suma = np.sum(dataraster)
+    #mean = np.mean(dataraster)
+    tot = np.count(dataraster)
+    per = np.float(sum/tot)
+    f.write('{0}, {1}\n'.format(ID, per))
